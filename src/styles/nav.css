@@ -1,0 +1,32 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.nav-logo {
+    flex: 1;
+    margin: auto;
+}
+
+.nav-links {
+    flex: 1;
+    margin: auto;
+}
+
+.nav-logo img {
+    margin: 42px 0 0 50px
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0 25px 0 0;
+}
+
+.nav-links ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

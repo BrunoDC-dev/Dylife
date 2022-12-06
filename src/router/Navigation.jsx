@@ -1,31 +1,17 @@
-import { BrowserRouter, Routes, Route, NavLink, Navigate } from "react-router-dom";
-import { Metodologias } from "../pages/Metodologias";
-import { Programa } from "../pages/Programa";
-import { Contacto } from "../pages/Contacto";
-import { Inicio } from "../pages/Inicio";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
+import { Contacto, Inicio, Metodologias, Programa } from "../pages";
 
 export const Navigation = () => {
     return (
         <BrowserRouter>
-            <ul>
-                <li>
-                    <NavLink to='/inicio'>Inicio</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/metodologias'>Metodologias</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/programa'>Programa</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/contacto'>Contacto</NavLink>
-                </li>
-            </ul>
             <Routes>
                 <Route path="inicio" element={<Inicio />} />
                 <Route path="metodologias" element={<Metodologias />} />
                 <Route path="programa" element={<Programa />} />
                 <Route path="contacto" element={<Contacto />} />
+
+                <Route path="/*" element={<Navigate to='inicio' replace />} />
             </Routes>
         </BrowserRouter>
     )
