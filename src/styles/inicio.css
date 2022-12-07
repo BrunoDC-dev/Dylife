@@ -1,0 +1,22 @@
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.inicio-top {
+    height: 70vh;
+    background-image: url("../assets/cover-hero.png");
+}
+
+.inicio-down {
+    height: 30vh;
+}
+
+.inicio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
