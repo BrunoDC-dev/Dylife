@@ -1,0 +1,75 @@
+.Programa-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.Programa-Section h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #063D93;
+    text-transform: uppercase;
+}
+
+.Programa-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Programa-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.Programa-number {
+    border-radius: 10px;
+    rotate: 45deg;
+}
+
+#lightblue {
+    background-color: #7D98C3;
+}
+
+#lightblue2 {
+    background-color: #6687BA;
+}
+
+#lightblue3 {
+    background-color: #4E75B1;
+}
+
+#blue {
+    background-color: #3662A7;
+}
+
+#blue2 {
+    background-color: #1E509D;
+}
+
+.Programa-container h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 12px 18px;
+    rotate: -45deg;
+}
+
+.Programa-container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}

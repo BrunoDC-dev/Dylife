@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@300&family=Roboto&display=swap');
+.Metodologias-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Metodologias-section h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #063D93;
+}
+
+.Metodologias-section h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.flex-metodologias {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Metodologias-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #063D93;
+    border-radius: 20px;
+    padding: 0px 15px;
+    gap: 15px;
+}
+
+.Metodologias-desc-container {
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Metodologias-desc-container h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #063D93;
+    margin: 0px;
+}
+
+.Metodologias-desc-container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0px;
+}
