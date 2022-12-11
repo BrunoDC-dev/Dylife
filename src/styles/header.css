@@ -1,0 +1,59 @@
+.header-background {
+    background-image: url('../assets/HeaderimgMobile.png');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.header-container {
+    background: linear-gradient(175.69deg, #022B6B 3.5%, rgba(217, 217, 217, 0) 96.5%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header-icon i {
+    font-size: 35px;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-img div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-img div h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-img div h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+}

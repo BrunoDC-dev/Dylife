@@ -1,0 +1,97 @@
+.Contacto-Img {
+    background-image: url('../assets/contactoImg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 20px;
+}
+
+.Contacto-Img h2 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.Contacto-Container {
+    background: #CAD5E6;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.Contacto-Container h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #063D93;
+    text-transform: uppercase;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.form-container div {
+    width: 100%;
+}
+
+.form-container div label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.form-container div input,
+.form-container div textarea {
+    width: 100%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+    color: #B3B3B3;
+    padding: 16px 20px;
+    margin-top: 12px;
+}
+
+.Contacto-Container button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #063D93;
+    border-radius: 10px;
+    border: 0;
+    width: 100%;
+    padding: 15px 0px;
+    transition: all 0.5s;
+}
+
+.Contacto-Container button:hover {
+    background-color: #FFFFFF;
+    color: #063D93;
+    border: 3px solid #063D93;
+    font-weight: 900;
+}
