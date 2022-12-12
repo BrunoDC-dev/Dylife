@@ -76,3 +76,67 @@
     color: #000000;
     margin: 0px;
 }
+
+@media screen and (min-width: 600px) {
+    .Metodologias-section {
+        padding: 50px 20px;
+    }
+    .Metodologias-container {
+        padding: 0px 10px;
+    }
+    .flex-metodologias {
+        flex-direction: row;
+    }
+    .Metodologias-desc-container {
+        padding: 10px 6px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Metodologias-section h2 {
+        font-size: 32px;
+    }
+    .Metodologias-section h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .Metodologias-container {
+        padding: 0px 5px 0px 25px;
+    }
+    .Metodologias-container img {
+        height: 60px;
+    }
+    .Metodologias-desc-container h4 {
+        font-size: 20px;
+    }
+    .Metodologias-desc-container p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Metodologias-section {
+        padding: 100px 40px;
+    }
+    .Metodologias-section h2 {
+        font-size: 40px;
+    }
+    .Metodologias-section h3 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .Metodologias-container {
+        padding: 20px 25px 20px 45px;
+    }
+    .Metodologias-container img {
+        height: 80px;
+    }
+    .Metodologias-desc-container h4 {
+        font-size: 24px;
+    }
+    .Metodologias-desc-container p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

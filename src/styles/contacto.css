@@ -71,6 +71,7 @@
     color: #B3B3B3;
     padding: 16px 20px;
     margin-top: 12px;
+    resize: none;
 }
 
 .Contacto-Container button {
@@ -94,4 +95,62 @@
     color: #063D93;
     border: 3px solid #063D93;
     font-weight: 900;
+}
+
+@media screen and (min-width: 600px) {
+    .Contacto-Img {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Contacto-Img {
+        background-image: url('../assets/ContactoImgDesk.png');
+    }
+    .Contacto-Container h2 {
+        font-size: 32px;
+    }
+    .Contacto-Img h2 {
+        font-size: 34px;
+    }
+    .Contacto-Container {
+        padding: 50px 80px;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .form-container div label {
+        font-size: 22px;
+    }
+    .form-container div input,
+    .form-container div textarea {
+        font-size: 20px;
+    }
+    .Contacto-Container button {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Contacto-Img h2 {
+        font-size: 40px;
+    }
+    .Contacto-Container h2 {
+        font-size: 40px;
+    }
+    .form-container div label {
+        font-size: 26px;
+    }
+    .form-container div input,
+    .form-container div textarea {
+        font-size: 24px;
+    }
+    .Contacto-Container button {
+        font-size: 28px;
+        padding: 22px 0px;
+    }
 }

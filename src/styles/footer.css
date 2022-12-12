@@ -34,3 +34,21 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 1024px) {
+    .Footer-container div {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Footer-container h3 {
+        font-size: 30px;
+    }
+    .Footer-container div p {
+        font-size: 20px;
+    }
+}
