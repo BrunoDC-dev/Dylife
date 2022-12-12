@@ -2,7 +2,7 @@ import React from 'react'
 export const ProyectoConrainer = (props) => {
  
     return (
-    <div className='Proyectos-container'>
+    <div className='Proyectos-container' id={props.id}>
         <div className='Proyectos-Title'>
         <h4>{props.title}</h4>
         </div>

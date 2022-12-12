@@ -86,3 +86,50 @@
     background-color: #063D93;
     color: #FFFFFF;
 }
+
+.proyectos-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media screen and (min-width: 600px) {
+    .proyectos-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .Proyectos-container {
+        flex: 0 0 48%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Proyectos-Section h3 {
+        font-size: 32px;
+    }
+    .Proyectos-container {
+        flex: 0 0 31%;
+    }
+    .Proyectos-Title h4 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Proyectos-Section h3 {
+        font-size: 40px;
+    }
+    .Proyectos-container {
+        flex: 0 0 32%;
+    }
+    .Proyectos-Title h4 {
+        font-size: 24px;
+    }
+    .Proyectos-container p {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: justify;
+    }
+}
