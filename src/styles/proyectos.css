@@ -50,6 +50,7 @@
     text-transform: uppercase;
     /* 00. On Surface / High Emphasis */
     color: rgba(0, 0, 0, 0.87);
+    padding: 0px 10px;
 }
 
 .Proyectos-container p {
@@ -103,6 +104,9 @@
     .Proyectos-container {
         flex: 0 0 48%;
     }
+    .Proyectos-Title h4 {
+        padding: 0px 10px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -114,6 +118,7 @@
     }
     .Proyectos-Title h4 {
         font-size: 22px;
+        padding: 0px 10px;
     }
 }
 

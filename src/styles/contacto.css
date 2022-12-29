@@ -74,7 +74,7 @@
     resize: none;
 }
 
-.Contacto-Container button {
+.Contacto-Container a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -88,9 +88,11 @@
     width: 100%;
     padding: 15px 0px;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
-.Contacto-Container button:hover {
+
+.Contacto-Container a:hover {
     background-color: #FFFFFF;
     color: #063D93;
     border: 3px solid #063D93;
