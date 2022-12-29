@@ -1,0 +1,91 @@
+.Herramientas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #CAD5E6;
+    padding: 50px 0px;
+    gap: 30px;
+}
+.Herramientas-container h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+
+color: #063D93;
+padding: 0px 20px;
+}
+.Herramientas-container h4{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.15px;
+
+color: #000000;
+padding: 0px 5px;
+}
+.Herramientas-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0px 20px;
+    gap: 20px;
+}
+.Herramientas-item div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.Herramientas-item div p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #000000;
+width: 100%;
+
+}
+@media screen and (min-width: 500px) {
+   .Herramientas-item{ 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .Herramientas-item div{
+    flex:0 0 47%;
+    gap: 20px
+    ;
+   }
+   .Herramientas-item div p{
+    line-height: 22px;
+   }
+}
+@media screen and (min-width: 1000px) {
+    .Herramientas-item{ 
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: center;
+     gap: 10px
+    
+    }
+    .Herramientas-item div{
+     flex:0 0 15%;
+     gap: 10px
+     ;
+     flex-direction: column;
+    }
+    .Herramientas-item div p{
+     line-height: 22px;
+    }
+ }

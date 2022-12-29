@@ -5,14 +5,14 @@ import hands from '../assets/hands.png'
 import notes from '../assets/notes.png'
 export const Metodologias = () => {
   return (
-    <div className='Metodologias-section'>
+    <div id='metodologias'className='Metodologias-section'>
       <h2>METODOLOGIAS</h2>
-      <h3>Apoyándonos en una evaluación científica, entenderemos cómo usar tus puntos fuertes para conseguir tus propósitos.</h3>
+      <h3>Creemos en ti, trabajamos tus fortalezas natas y con ellas construimos tu plan de futuro. Apoyándonos en una evaluación científica, entenderemos cómo usar tus puntos fuertes para conseguir tus propósitos.</h3>
       <div className='flex-metodologias'>
       <MetodologiasCotainer 
       img={notes} 
       title="Diseño y planeación del futuro:" 
-      description="6 sesiones semanales para construir las metas que deseas, identificar tus fortalezas natas y crear un plan estratégico personalizado."
+      description="4 sesiones semanales para construir las metas que deseas, identificar tus fortalezas natas y crear un plan estratégico personalizado."
       />
       <MetodologiasCotainer 
       img={hands} 
