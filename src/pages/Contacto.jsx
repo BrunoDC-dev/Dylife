@@ -16,7 +16,16 @@ const handleMensaje=(event) =>{
 
 }
   return (
-    <div id='contacto'>     
+    <div id='contacto'>  
+    <div className='servicios-container'>
+      <p>Todos los servicios incluyen:</p>
+      <p>1. Kit de bienvenida con todas las herramientas que usarás durante tu proceso de transformación (Costo de envío incluido para México).</p>
+      <p>2. Aplicación e interpretación de la evaluación científica de fortalezas.</p>
+      <p>3. Te asignaremos desde el primer momento al facilitador que te acompañará durante el proceso.</p>
+      <p>4. Acompañamiento 100% personalizado de tu facilitador.</p>
+      <p>5. 1 Sesión semanal de 60 minutos con tu facilitador.</p>
+      <p>6. 50% de descuento para cualquiera de nuestros talleres presenciales.</p>
+    </div>
         <div className='Contacto-Img'>
           <h2>“La energía y la persistencia conquistan todo”</h2>
         </div>
