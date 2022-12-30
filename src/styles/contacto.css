@@ -98,7 +98,24 @@
     border: 3px solid #063D93;
     font-weight: 900;
 }
+.servicios-container{
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.servicios-container p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.15px;
 
+color: #000000;
+
+}
 @media screen and (min-width: 600px) {
     .Contacto-Img {
         height: 400px;
