@@ -44,7 +44,7 @@ const handleMensaje=(event) =>{
             <label htmlFor="MENSAJE">MENSAJE:</label>
             <textarea name="MENSAJE" id="" rows="10"placeholder='Déjanos un mensaje...'  onChange={handleMensaje}></textarea>
             </div>
-           <a href={`https://wa.me/5579009514?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20Dylife%20soy%20`+nombre+`%20mi%20email%20`+email+`%20`+mensaje }>ENVIAR</a>
+           <a href={`https://wa.me/525579009514?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20Dylife%20soy%20`+nombre+`%20mi%20email%20`+email+`%20`+mensaje }>ENVIAR</a>
           </form>
         </div>
     </div>
